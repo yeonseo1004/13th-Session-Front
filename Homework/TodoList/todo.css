@@ -106,3 +106,9 @@
 .done{
     height: 50%;
 }
+
+/* ul의 점 없애기 */
+.todo-list, .done-list{
+    list-style: none;
+}
+

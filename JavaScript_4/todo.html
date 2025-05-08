@@ -8,17 +8,23 @@
     <title>Document</title>
   </head>
   <body>
+    <!--전체 투두리스트 박스-->
     <div class="container">
+      <!--위쪽: 제목+입력창-->
       <div class="top-contents">
         <h2 class="todo-title">투두리스트</h2>
         <div class="todo-input-items">
           <button class="popup-button">+</button>
+          <!-- + 버튼 생성-->
           <form class="todo-form">
             <input class="todo-input" placeholder="할 일을 입력해주세요" />
+            <!--type="submit"버튼은 반드시 <form>태그 안에 있어야 동작함!!!-->
             <button class="todo-input-button" type="submit">추가하기</button>
           </form>
         </div>
       </div>
+
+      <!--중간부분-->
       <div class="center-contents">
         <h3>할 일</h3>
         <ul class="todo-list">
@@ -28,6 +34,8 @@
           </li>
         </ul>
       </div>
+
+      <!--끝부분-->
       <div class="bottom-contents">
         <h3 class="list-title">끝낸 일</h3>
         <ul class="done-list">
@@ -38,6 +46,7 @@
         </ul>
       </div>
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>

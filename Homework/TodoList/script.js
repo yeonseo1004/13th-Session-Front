@@ -25,6 +25,11 @@ const printTodoItem = (text) => {
     const button = document.createElement("button");
     button.style.all="unset";
 
+    // html 요소에 클래스 이름 붙이는 역할
+    li.classList.add("todo-item");
+    span.classList.add("todo-text");
+    button.classList.add("todo-btn");
+    
     // span에 넣고자하는 텍스트 추가
     span.innerText = text;
     
@@ -56,6 +61,8 @@ const printTodoItem = (text) => {
         li.remove();
     })
 }
+
+
 
 init();
 
