@@ -1,0 +1,43 @@
+body{
+    background-color:antiquewhite;
+}
+h1{
+    border: 4px dashed black;
+    padding: 20px;
+    text-align: center;
+}
+h3,h4{
+    color:black;
+    text-align: right;
+}
+.bold-text{
+    font-weight: 600;
+}
+.italic-text{
+    font-style: italic;
+    padding: 18px;
+}
+.contact-box,.likes-box{
+    background-color:white;
+    border: 0px solid white; 
+    padding: 0px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 1px 2px 8px 4px rgba(0,0,0,0.1);
+    margin: 20px auto;
+}
+.contact-box-title,.likes-box-title{
+    color: white;
+    background-color:cadetblue;
+    border-bottom: solid;
+    text-align: center;
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.likes-list{
+    padding: 8px;
+}
+.github-image, .insta-img{
+    width: 50px;
+    height: 50px;
+}
